@@ -1,5 +1,7 @@
-# Local server
+# Local server v0.1.0
 
+---
+:crab: Basic local server implemented in Rust for html :crab:
 ---
 
 ## ⚠️ LICENSE ⚠️
@@ -24,5 +26,35 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 💻 How to use this app 💻
+
+1) ⚠️ **The application is designed for Linux, so avoid using other systems or remake the program to avoid bugs.** ⚠️
+
+2) 🗂️ Download *all* files and put them in a one directory.
+
+3) ⚒️ Compile and run the program with *cargo*.
+    - Сompilation example
+    ```
+    cargo run
+    ```
+4) 👷 Then, open your browser and type the address:
+  ```
+  127.0.0.1:7878/
+  ```
+5) 🌠 To view the "sleep" page type in your browser:
+  ```
+  127.0.0.1:7878/sleep
+  ```
+
+6) :100: To view the "404" page type anyting after the "/", for instance:
+  ```
+  127.0.0.1:7878/anything
+  ```
+  
+7) ⚠️ Notice that server shuts down after each second request!
+7) :smiley: Enjoy =)
 
 ---
