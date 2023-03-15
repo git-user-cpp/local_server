@@ -1,7 +1,9 @@
 # Local server v0.1.0
 
 ---
+
 :crab: Basic local server implemented in Rust for html :crab:
+
 ---
 
 ## ⚠️ LICENSE ⚠️
